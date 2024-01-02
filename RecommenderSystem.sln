@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommenderSystem", "RecommenderSystem\RecommenderSystem.csproj", "{2A8F7F7E-792E-4FB5-9ADD-540C10F0A33A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeApp.Data", "RecipeApp.Data\RecipeApp.Data.csproj", "{7E198FAD-1888-4D53-8B11-04D08887B433}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2A8F7F7E-792E-4FB5-9ADD-540C10F0A33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A8F7F7E-792E-4FB5-9ADD-540C10F0A33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A8F7F7E-792E-4FB5-9ADD-540C10F0A33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E198FAD-1888-4D53-8B11-04D08887B433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E198FAD-1888-4D53-8B11-04D08887B433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E198FAD-1888-4D53-8B11-04D08887B433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E198FAD-1888-4D53-8B11-04D08887B433}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

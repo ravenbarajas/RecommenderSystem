@@ -1,0 +1,14 @@
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecipeApp.Data\bin\Debug\net6.0\RecipeApp.Data.deps.json
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecipeApp.Data\bin\Debug\net6.0\RecipeApp.Data.runtimeconfig.json
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecipeApp.Data\bin\Debug\net6.0\RecipeApp.Data.dll
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecipeApp.Data\bin\Debug\net6.0\RecipeApp.Data.pdb
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecipeApp.Data\obj\Debug\net6.0\RecipeApp.Data.csproj.AssemblyReference.cache
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecipeApp.Data\obj\Debug\net6.0\RecipeApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecipeApp.Data\obj\Debug\net6.0\RecipeApp.Data.AssemblyInfoInputs.cache
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecipeApp.Data\obj\Debug\net6.0\RecipeApp.Data.AssemblyInfo.cs
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecipeApp.Data\obj\Debug\net6.0\RecipeApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecipeApp.Data\obj\Debug\net6.0\RecipeApp.Data.dll
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecipeApp.Data\obj\Debug\net6.0\refint\RecipeApp.Data.dll
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecipeApp.Data\obj\Debug\net6.0\RecipeApp.Data.pdb
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecipeApp.Data\obj\Debug\net6.0\RecipeApp.Data.genruntimeconfig.cache
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecipeApp.Data\obj\Debug\net6.0\ref\RecipeApp.Data.dll

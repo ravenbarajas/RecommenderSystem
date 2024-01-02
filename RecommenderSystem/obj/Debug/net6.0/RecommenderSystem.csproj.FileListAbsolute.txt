@@ -29,3 +29,13 @@ C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecommenderSystem\obj\Debu
 C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecommenderSystem\obj\Debug\net6.0\RecommenderSystem.pdb
 C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecommenderSystem\obj\Debug\net6.0\RecommenderSystem.genruntimeconfig.cache
 C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecommenderSystem\obj\Debug\net6.0\ref\RecommenderSystem.dll
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecommenderSystem\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecommenderSystem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecommenderSystem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecommenderSystem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecommenderSystem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecommenderSystem\bin\Debug\net6.0\Npgsql.dll
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecommenderSystem\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecommenderSystem\bin\Debug\net6.0\RecipeApp.Data.dll
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecommenderSystem\bin\Debug\net6.0\RecipeApp.Data.pdb
+C:\Users\Raven Barajas\source\repos\RecommenderSystem\RecommenderSystem\obj\Debug\net6.0\RecommenderSystem.csproj.CopyComplete

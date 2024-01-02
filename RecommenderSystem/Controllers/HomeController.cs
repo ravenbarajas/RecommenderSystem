@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using RecipeApp.Data;
 using RecommenderSystem.Models;
 using System.Diagnostics;
 
@@ -6,16 +8,16 @@ namespace RecommenderSystem.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly RecipeDataContext context;
+        public HomeController(RecipeDataContext context)
         {
-            _logger = logger;
+            this.context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var recipes = this.context.Recipes.Include("Ingredients").ToList();
+            return View(recipes);
         }
 
         public IActionResult Privacy()

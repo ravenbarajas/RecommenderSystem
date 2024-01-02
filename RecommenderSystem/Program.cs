@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using RecipeApp.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<RecipeDataContext>(
+    o => o.UseNpgsql(builder.Configuration.GetConnectionString("RecipeDb"))
+    );
 
 var app = builder.Build();
 
