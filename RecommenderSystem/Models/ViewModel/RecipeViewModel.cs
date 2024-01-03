@@ -16,6 +16,8 @@ namespace RecommenderSystem.Models.ViewModel
 
         public string description { get; set; }
 
+        public string n_ingredients { get; set; }
+
         public string ingredient { get; set; }
     }
 }

@@ -25,6 +25,7 @@ namespace RecommenderSystem.Controllers
                 submitted= m.submitted,
                 n_steps= m.n_steps,
                 description= m.description, 
+                n_ingredients = m.n_ingredients,
                 ingredient = string.Join(',', m.ingredient.Select(a => a.name))
 
             });

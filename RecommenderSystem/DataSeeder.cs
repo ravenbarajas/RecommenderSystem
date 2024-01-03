@@ -24,6 +24,7 @@ namespace RecommenderSystem
                 submitted = "9/16/2005",
                 n_steps = "11",
                 description = "\"autumn is my favorite time of year to cook! this recipe \r\ncan be prepared either spicy or sweet, your choice!\r\ntwo of my posted mexican-inspired seasoning mix recipes are offered as suggestions.\"\r\n",
+                n_ingredients = "7",
                 ingredient = new List<Ingredient>
                 { 
                     new Ingredient{ name = "winter squash" },
@@ -43,6 +44,7 @@ namespace RecommenderSystem
                 submitted = "9/16/2005",
                 n_steps = "11",
                 description = "\"autumn is my favorite time of year to cook! this recipe \r\ncan be prepared either spicy or sweet, your choice!\r\ntwo of my posted mexican-inspired seasoning mix recipes are offered as suggestions.\"\r\n",
+                n_ingredients = "3",
                 ingredient = new List<Ingredient>
                 {
                     new Ingredient{ name = "winter squash" },
@@ -58,6 +60,7 @@ namespace RecommenderSystem
                 submitted = "9/16/2005",
                 n_steps = "11",
                 description = "\"autumn is my favorite time of year to cook! this recipe \r\ncan be prepared either spicy or sweet, your choice!\r\ntwo of my posted mexican-inspired seasoning mix recipes are offered as suggestions.\"\r\n",
+                n_ingredients = "5",
                 ingredient = new List<Ingredient>
                 {
                     new Ingredient{ name = "winter squash" },
@@ -75,6 +78,7 @@ namespace RecommenderSystem
                 submitted = "9/16/2005",
                 n_steps = "11",
                 description = "\"autumn is my favorite time of year to cook! this recipe \r\ncan be prepared either spicy or sweet, your choice!\r\ntwo of my posted mexican-inspired seasoning mix recipes are offered as suggestions.\"\r\n",
+                n_ingredients = "3",
                 ingredient = new List<Ingredient>
                 {
                     new Ingredient{ name = "winter squash" },
@@ -90,15 +94,17 @@ namespace RecommenderSystem
                 submitted = "9/16/2005",
                 n_steps = "11",
                 description = "\"autumn is my favorite time of year to cook! this recipe \r\ncan be prepared either spicy or sweet, your choice!\r\ntwo of my posted mexican-inspired seasoning mix recipes are offered as suggestions.\"\r\n",
+                n_ingredients = "4",
                 ingredient = new List<Ingredient>
                 {
                     new Ingredient{ name = "winter squash" },
                     new Ingredient{ name = "mexican seasoning" },
                     new Ingredient{ name = "mixed spice" },
                     new Ingredient{ name = "honey" },
-                    new Ingredient{ name = "butter" },
                 }
             });
+
+            context.SaveChanges();
         }
     }
 }
