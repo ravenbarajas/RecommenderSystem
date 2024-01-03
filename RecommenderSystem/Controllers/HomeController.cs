@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using RecipeApp.Data;
 using RecommenderSystem.Models;
+using RecommenderSystem.Models.ViewModel;
 using System.Diagnostics;
 
 namespace RecommenderSystem.Controllers
@@ -16,7 +17,17 @@ namespace RecommenderSystem.Controllers
 
         public IActionResult Index()
         {
-            var recipes = this.context.Recipes.Include("Ingredients").ToList();
+            var recipes = this.context.Recipes.Include(m => m.ingredient).Select(m => new RecipeViewModel
+            {
+                name = m.name,
+                minutes = m.minutes,
+                contributor_id = m.contributor_id,
+                submitted= m.submitted,
+                n_steps= m.n_steps,
+                description= m.description, 
+                ingredient = string.Join(',', m.ingredient.Select(a => a.name))
+
+            });
             return View(recipes);
         }
 

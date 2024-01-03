@@ -1,8 +1,16 @@
-﻿@{
+﻿@model IEnumerable<RecommenderSystem.Models.ViewModel.RecipeViewModel>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@foreach(var recipe in Model)
+{
+    <h1>@recipe.name</h1>
+    <h1>@recipe.minutes</h1>
+    <h1>@recipe.contributor_id</h1>
+    <h1>@recipe.submitted</h1>
+    <h1>@recipe.n_steps</h1>
+    <h1>@recipe.description</h1>
+    <h1>@recipe.ingredient</h1>
+}
